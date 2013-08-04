@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicTube", "YouTube\MusicTube.csproj", "{A13DA970-2C05-4333-9604-FF3E2188C8BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A13DA970-2C05-4333-9604-FF3E2188C8BE}.Debug|x86.ActiveCfg = Debug|x86
+		{A13DA970-2C05-4333-9604-FF3E2188C8BE}.Debug|x86.Build.0 = Debug|x86
+		{A13DA970-2C05-4333-9604-FF3E2188C8BE}.Release|x86.ActiveCfg = Release|x86
+		{A13DA970-2C05-4333-9604-FF3E2188C8BE}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
