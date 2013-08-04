@@ -50,9 +50,6 @@ class YouTube1 : Form
         this.MaximizeBox = false;
         notifyIcon1.DoubleClick += new EventHandler(notifyIcon1_DoubleClick);
         notifyIcon1.Text = "MusicTube";
-        
-
-        //this.ShowInTaskbar = false;
 
 
         Icon icon = YouTube.Properties.Resources.icon1;
@@ -87,17 +84,6 @@ class YouTube1 : Form
         
         lbx.Parent = this;
         player.Parent = this;
-
-        /*
-        Uri uri = new Uri("http://google.co.jp");
-        player.Url = uri;
-        */
-
-        //player.DocumentText = String.Format(HtmlCode, 100, 100, "sIFVavn9eA8");
-        //player.DocumentText = String.Format(Html, 200, 20, "http://www.youtube.com/v/sIFVavn9eA8");
-
-        //↓再生開始
-        //player.DocumentText = string.Format(Html, 1, 1, strData);
 
         tb.KeyDown += new KeyEventHandler(tb_KeyDown);
         lbx.SelectedIndexChanged += new EventHandler(lbx_SelectedIndexChanged);
@@ -172,7 +158,6 @@ class YouTube1 : Form
             }
 
             //Console.WriteLine("hello\n");
-            //player.DocumentText = string.Format(Html, 0, 0, strData);
         }
     }
     private void form_Size_Changed(Object sender, EventArgs e)
