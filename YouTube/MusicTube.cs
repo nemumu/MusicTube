@@ -75,7 +75,6 @@ class YouTube1 : Form
         player.AllowWebBrowserDrop = false;
         player.IsWebBrowserContextMenuEnabled = false;
         player.WebBrowserShortcutsEnabled = false;
-        //player.DocumentText = "Hello";
 
         lbx = new ListBox();
         lbx.Width = tb.Width;
