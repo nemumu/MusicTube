@@ -156,8 +156,6 @@ class YouTube1 : Form
                 if (i >= 9) break;
                 i++;
             }
-
-            //Console.WriteLine("hello\n");
         }
     }
     private void form_Size_Changed(Object sender, EventArgs e)
@@ -182,7 +180,6 @@ class YouTube1 : Form
     public void lbx_SelectedIndexChanged(Object sender, EventArgs e)
     {
         ListBox tmp = (ListBox)sender;
-        //Console.WriteLine(tmp.Text);
         player.DocumentText = string.Format(Html, 0, 0, strUrl[lbx.SelectedIndex]);
     }
 }
