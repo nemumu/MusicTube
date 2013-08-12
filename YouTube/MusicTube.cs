@@ -37,12 +37,12 @@ class YouTube1 : Form
     private string[] strUrl = new string[10];
 
     [STAThread]
-    public static void Main()
-    {
+    
+    public static void Main(){
         Application.Run(new YouTube1());
     }
-    public YouTube1()
-    {
+    
+    public YouTube1(){
         this.Text = "MusicTube";
         this.Width = 600;
         this.Height = 170;
@@ -88,6 +88,7 @@ class YouTube1 : Form
         tb.KeyDown += new KeyEventHandler(tb_KeyDown);
         lbx.SelectedIndexChanged += new EventHandler(lbx_SelectedIndexChanged);
     }
+    
     public void tb_KeyDown(Object sender, KeyEventArgs e){
         TextBox tmp = (TextBox)sender;
 
