@@ -89,6 +89,7 @@ class YouTube1 : Form
         lbx.SelectedIndexChanged += new EventHandler(lbx_SelectedIndexChanged);
     }
     
+    // This is function that load video title and url
     public void tb_KeyDown(Object sender, KeyEventArgs e){
         TextBox tmp = (TextBox)sender;
 
